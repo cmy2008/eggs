@@ -1,19 +1,19 @@
 #扯蛋
-new 扯蛋
-input 蛋
-if {egg = 瞎扯} ;
+new "扯蛋"
+input "蛋"
+if {egg = 瞎扯的} ;
 run
 扯 /egg
 else
-new 蛋扯
+new "蛋扯"
 if {egg = null};
 run
-input 扯BUG蛋
-rm -l -f /*.bug
+input "扯BUG蛋"
+rm -rf egg/*.bug
 reboot eggs
 else=null
 fi
 fi
 #蛋扯
-run 瞎扯蛋.egg
-input build found!
+run egg/"瞎扯蛋.egg"
+input "build found!"
