@@ -16,4 +16,4 @@ fi
 fi
 #蛋扯
 run egg/"瞎扯蛋.egg"
-input "build found!"
+input "Build found!"
